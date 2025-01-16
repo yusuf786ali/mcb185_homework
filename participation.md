@@ -31,3 +31,11 @@ Notes:
 
 1. I helped another student fix their github account
 2. I stayed after class and got help from the professor
+
+Week 1:
+I went to class on Tuesday
+I went to class on Thursday
+
+Week 2
+I went to class on Tuesday
+I went to class on Thursday and met zhenghua
