@@ -39,3 +39,11 @@ I went to class on Thursday
 Week 2
 I went to class on Tuesday
 I went to class on Thursday and met zhenghua
+
+Week 3
+
+I went to class on Tuesday
+I went to class on Thursday and met Kristine
+
+Week 4
+I went to class on Thursday and participated infront of the class
