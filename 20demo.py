@@ -1,3 +1,5 @@
+import math
+
 #tuple
 t = 1, 2 #this is a tuple
 print(t)
@@ -70,3 +72,56 @@ for i in range (1, 101):
     elif i % 3 == 0:  print('Fizz')
     else:              print(i)
 
+def triangle(number):
+    total = 0
+    for i in range(number + 1):
+        total = total + i
+    return total
+
+print(triangle(6))
+
+def factorial(number):
+    total = 1
+    if number == 0: return 1
+    for i in range(number, 0, -1):
+        total = total * i
+    return total
+
+print(factorial(6))
+print(factorial(0))
+
+def poisson(n, k):
+    for i in range(n, k):
+        total = (math.pow(n, k) * math.pow(math.e, -n) / factorial(k))
+    return total
+
+print(poisson(4, 10))
+
+def nchoosek(n, k):
+    total = factorial(n) / factorial(k) * factorial(n - k)
+    return total
+
+print(nchoosek(4, 10))
+
+def euler(end):
+    total = 0
+    for n in range(end):
+        total = total + (1 / factorial(n))
+    return total
+
+print(euler(1000))
+
+def prime(n):
+    if n < 2: return False
+    for i in range(2, 100):
+        if n % i == 0: return False
+    return True
+
+print(prime(120))
+
+def is_prime(n):
+    for den in range(2, n//2 + 1):
+        if n % den == 0: return False
+    return True
+    
+print(is_prime(11))
