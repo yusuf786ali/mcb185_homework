@@ -1,5 +1,5 @@
 import math
-
+import random
 #tuple
 t = 1, 2 #this is a tuple
 print(t)
@@ -125,3 +125,30 @@ def is_prime(n):
     return True
     
 print(is_prime(11))
+
+def peye(end):
+    total = 3
+    sign = 1
+    for n in range(2, end, 2):
+        total = total + 4/(n * (n + 1) * (n + 2))*sign
+        sign = sign * -1
+        print(total)
+    return total
+print(peye(200))
+
+for i in range(5):
+    print(random.random())
+
+for i in range(3):
+    print(random.randint(1,6))
+
+random.seed(1)
+print(random.random())
+print(random.random())
+random.seed(2)
+print(random.random())
+print(random.random())
+random.seed(1)
+print(random.random())
+print(random.random())
+

@@ -191,6 +191,6 @@ i = int('42')
 x = float('0.61803')
 print(i * x)
 
-for i in range(0, len(list)):
+'''for i in range(0, len(list)):
     for j in rnage(X, len(list)):
-        
+'''
